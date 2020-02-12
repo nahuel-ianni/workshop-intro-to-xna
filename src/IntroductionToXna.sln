@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Empty project", "01 - Empty project", "{3EB698A2-27EB-4E3E-89E8-8FEF4965C0C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Loading textures", "02 - Loading textures", "{01341B58-2C17-4528-BDE9-9963736FB4EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Showing enemies", "03 - Showing enemies", "{2BAEE733-C8BF-4D91-ABE4-1A2401B0A044}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Collisions", "04 - Collisions", "{2C1E8DBB-C904-4FCA-8BE1-CCB2DA50FAF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Adding text and sound", "05 - Adding text and sound", "{A8CBA2E5-7118-4ECF-BB11-9EED069A32C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyProject", "EmptyProject\EmptyProject\EmptyProject.csproj", "{864C7411-A993-4F81-8966-159EE3A12337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyProjectContent", "EmptyProject\EmptyProjectContent\EmptyProjectContent.contentproj", "{EE403A9D-C9B2-4FAC-8BFA-F3EDB903A64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadingTextures", "LoadingTextures\LoadingTextures\LoadingTextures.csproj", "{1B6CDE34-E3A0-403C-8D01-917734D6A62F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadingTexturesContent", "LoadingTextures\LoadingTexturesContent\LoadingTexturesContent.contentproj", "{BEE67D2F-0F51-4542-9596-3F49B37B6657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowingEnemies", "ShowingEnemies\ShowingEnemies\ShowingEnemies.csproj", "{C9AB7AAD-7CF0-45CA-9562-D7F6D2B062C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowingEnemiesContent", "ShowingEnemies\ShowingEnemiesContent\ShowingEnemiesContent.contentproj", "{E4921194-67C2-4944-B297-5CA8B6FA7246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collisions", "Collisions\Collisions\Collisions.csproj", "{39A72547-24BD-475F-9D93-931E8939CC99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollisionsContent", "Collisions\CollisionsContent\CollisionsContent.contentproj", "{CCE9D44C-4BDB-42FB-BCA4-5D7698728602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddingTextAndSound", "AddingTextAndSound\AddingTextAndSound\AddingTextAndSound.csproj", "{2DF5DD11-F049-4CB5-88B7-FB6A2B392351}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "AddingTextAndSoundContent", "AddingTextAndSound\AddingTextAndSoundContent\AddingTextAndSoundContent.contentproj", "{37DED94C-1166-4DF6-BC2C-786EA6D3CA88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{864C7411-A993-4F81-8966-159EE3A12337}.Debug|x86.ActiveCfg = Debug|x86
+		{864C7411-A993-4F81-8966-159EE3A12337}.Debug|x86.Build.0 = Debug|x86
+		{864C7411-A993-4F81-8966-159EE3A12337}.Release|x86.ActiveCfg = Release|x86
+		{864C7411-A993-4F81-8966-159EE3A12337}.Release|x86.Build.0 = Release|x86
+		{EE403A9D-C9B2-4FAC-8BFA-F3EDB903A64B}.Debug|x86.ActiveCfg = Debug|x86
+		{EE403A9D-C9B2-4FAC-8BFA-F3EDB903A64B}.Release|x86.ActiveCfg = Release|x86
+		{1B6CDE34-E3A0-403C-8D01-917734D6A62F}.Debug|x86.ActiveCfg = Debug|x86
+		{1B6CDE34-E3A0-403C-8D01-917734D6A62F}.Debug|x86.Build.0 = Debug|x86
+		{1B6CDE34-E3A0-403C-8D01-917734D6A62F}.Release|x86.ActiveCfg = Release|x86
+		{1B6CDE34-E3A0-403C-8D01-917734D6A62F}.Release|x86.Build.0 = Release|x86
+		{BEE67D2F-0F51-4542-9596-3F49B37B6657}.Debug|x86.ActiveCfg = Debug|x86
+		{BEE67D2F-0F51-4542-9596-3F49B37B6657}.Release|x86.ActiveCfg = Release|x86
+		{C9AB7AAD-7CF0-45CA-9562-D7F6D2B062C5}.Debug|x86.ActiveCfg = Debug|x86
+		{C9AB7AAD-7CF0-45CA-9562-D7F6D2B062C5}.Debug|x86.Build.0 = Debug|x86
+		{C9AB7AAD-7CF0-45CA-9562-D7F6D2B062C5}.Release|x86.ActiveCfg = Release|x86
+		{C9AB7AAD-7CF0-45CA-9562-D7F6D2B062C5}.Release|x86.Build.0 = Release|x86
+		{E4921194-67C2-4944-B297-5CA8B6FA7246}.Debug|x86.ActiveCfg = Debug|x86
+		{E4921194-67C2-4944-B297-5CA8B6FA7246}.Release|x86.ActiveCfg = Release|x86
+		{39A72547-24BD-475F-9D93-931E8939CC99}.Debug|x86.ActiveCfg = Debug|x86
+		{39A72547-24BD-475F-9D93-931E8939CC99}.Debug|x86.Build.0 = Debug|x86
+		{39A72547-24BD-475F-9D93-931E8939CC99}.Release|x86.ActiveCfg = Release|x86
+		{39A72547-24BD-475F-9D93-931E8939CC99}.Release|x86.Build.0 = Release|x86
+		{CCE9D44C-4BDB-42FB-BCA4-5D7698728602}.Debug|x86.ActiveCfg = Debug|x86
+		{CCE9D44C-4BDB-42FB-BCA4-5D7698728602}.Release|x86.ActiveCfg = Release|x86
+		{2DF5DD11-F049-4CB5-88B7-FB6A2B392351}.Debug|x86.ActiveCfg = Debug|x86
+		{2DF5DD11-F049-4CB5-88B7-FB6A2B392351}.Debug|x86.Build.0 = Debug|x86
+		{2DF5DD11-F049-4CB5-88B7-FB6A2B392351}.Release|x86.ActiveCfg = Release|x86
+		{2DF5DD11-F049-4CB5-88B7-FB6A2B392351}.Release|x86.Build.0 = Release|x86
+		{37DED94C-1166-4DF6-BC2C-786EA6D3CA88}.Debug|x86.ActiveCfg = Debug|x86
+		{37DED94C-1166-4DF6-BC2C-786EA6D3CA88}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{864C7411-A993-4F81-8966-159EE3A12337} = {3EB698A2-27EB-4E3E-89E8-8FEF4965C0C5}
+		{EE403A9D-C9B2-4FAC-8BFA-F3EDB903A64B} = {3EB698A2-27EB-4E3E-89E8-8FEF4965C0C5}
+		{1B6CDE34-E3A0-403C-8D01-917734D6A62F} = {01341B58-2C17-4528-BDE9-9963736FB4EF}
+		{BEE67D2F-0F51-4542-9596-3F49B37B6657} = {01341B58-2C17-4528-BDE9-9963736FB4EF}
+		{C9AB7AAD-7CF0-45CA-9562-D7F6D2B062C5} = {2BAEE733-C8BF-4D91-ABE4-1A2401B0A044}
+		{E4921194-67C2-4944-B297-5CA8B6FA7246} = {2BAEE733-C8BF-4D91-ABE4-1A2401B0A044}
+		{39A72547-24BD-475F-9D93-931E8939CC99} = {2C1E8DBB-C904-4FCA-8BE1-CCB2DA50FAF6}
+		{CCE9D44C-4BDB-42FB-BCA4-5D7698728602} = {2C1E8DBB-C904-4FCA-8BE1-CCB2DA50FAF6}
+		{2DF5DD11-F049-4CB5-88B7-FB6A2B392351} = {A8CBA2E5-7118-4ECF-BB11-9EED069A32C8}
+		{37DED94C-1166-4DF6-BC2C-786EA6D3CA88} = {A8CBA2E5-7118-4ECF-BB11-9EED069A32C8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A36FF37-7F7C-4A7A-B1D5-2D3E0192FEF0}
+	EndGlobalSection
+EndGlobal
